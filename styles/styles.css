@@ -5,8 +5,38 @@ body {
     height: 100%;
     margin: 0;
     font-family: Roboto;
+    
 }
 
-.mesh {                         /* Сетка макета */
+.mesh {                         /* Сетка проекта, смещает все объекты по середине */
     padding: 0 349px;
+}
+
+.header {
+    background: url("../image/header-background.png") right no-repeat;
+    height: 867px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.logo-block {                   /* Логотип, кнопка */
+    width: 680px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     margin-top: 20px;
+}
+
+.logo-block-button {
+    width: 193px;
+    height: 52px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #ffffff;
+    line-height: 28px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
